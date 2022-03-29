@@ -55,26 +55,22 @@ Workarea combines commerce, content, search, and insights into a unified platfor
 
 Demo
 --------------------------------------------------------------------------------
-You can run a demo version of Workarea after installing [Docker](https://www.docker.com/) by running the following command in your terminal:
-
-```bash
-curl -s https://raw.githubusercontent.com/workarea-commerce/workarea/master/demo/install | bash
-```
+You can run a demo version of Workarea after installing [Docker](https://www.docker.com/) by running the following command in your terminal
 
 **If you are using MacOS or Windows, this will require you to increase Docker's memory allocation to at least 4GB**. Go to your Docker preferences, select the  advanced tab, and adjust the memory slider.
 
 Once complete, you can view the Workarea Storefront at <http://localhost:3000> and the Workarea Admin at <http://localhost:3000/admin>. The seed data provides an admin user with an email/password of `user@workarea.com/w0rkArea!`.
 
-See the [README](demo/README.md) in the [`demo`](https://github.com/workarea-commerce/workarea/tree/master/demo) directory for more information.
+See the [README](demo/README.md) in the [`demo`] directory for more information.
 
 
 Getting Started
 --------------------------------------------------------------------------------
-We'd suggest checking out our introductory overview article on Workarea to wrap your head around the technology. [Read the Workarea developer overview article](https://developer.workarea.com/articles/overview.html).
+We'd suggest checking out our introductory overview article on Workarea to wrap your head around the technology. [Read the Workarea developer overview article].
 
 Then try following [our guide on creating a new Workarea Rails app]
 
-If you have any problems, reach out on our [public Slack](https://www.workarea.com/slack). We're happy to help!
+If you have any problems, reach out on our [public Slack]. We're happy to help!
 
 **Watch the Quickstart Video:** <https://vimeo.com/370085475>
 
@@ -101,7 +97,7 @@ To see a full list of open-source plugins, check out the [Workarea Github organi
 
 Extension
 --------------------------------------------------------------------------------
-Workarea is meant to be extended and customized to fit merchant needs. It's built as a collection of [Rails Engines](https://guides.rubyonrails.org/engines.html) so the [Rails guides on customizing engines](https://guides.rubyonrails.org/engines.html#improving-engine-functionality) apply. Workarea also includes the [Rails Decorators](https://github.com/workarea-commerce/rails-decorators) to provide a easy and familiar path for Rails developers to customize Ruby classes. To read more, check out [our documentation on extension](https://developer.workarea.com/articles/extension-overview.html).
+Workarea is meant to be extended and customized to fit merchant needs. It's built as a collection of [Rails Engines](https://guides.rubyonrails.org/engines.html) so the [Rails guides on customizing engines](https://guides.rubyonrails.org/engines.html#improving-engine-functionality) apply. Workarea also includes the [Rails Decorators] to provide a easy and familiar path for Rails developers to customize Ruby classes. To read more, check out [our documentation on extension].
 
 
 Deploying
